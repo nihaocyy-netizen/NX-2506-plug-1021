@@ -1,0 +1,110 @@
+TITLE NX tool
+VERSION 170
+DOCK TOP
+
+
+BEGIN_GROUP 001
+LABEL Color
+
+    BUTTON Colorred186
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Colororange78
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Coloryellow6
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Colorgreen36
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Colorblue211
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Colorbrown125
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Colorgray44
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Colorpurple164
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Colorrandom
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+END_GROUP
+
+BEGIN_GROUP 002
+LABEL Display
+
+    BUTTON Transparent
+    BUTTON Notransparent
+    BUTTON Showonly
+
+END_GROUP
+
+
+BEGIN_GROUP 003
+LABEL Layer
+
+    BUTTON Showalllayers
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+   
+    BUTTON Hidealllayers
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Previouslayer
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+   
+    BUTTON Nextlayer
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+   
+    BUTTON Separatelayer
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+ 
+    BUTTON Switch10worklayer
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+    BUTTON Switch200worklayer
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+    
+    BUTTON Movetolayer255
+    RIBBON_STYLE SMALL_IMAGE_AND_TEXT
+
+END_GROUP
+
+
+BEGIN_GROUP 004
+LABEL Draw
+
+    BUTTON Semiautodwg
+    HIDE
+
+    BUTTON Autodwg
+    BUTTON Reset_task
+
+END_GROUP
+
+
+BEGIN_GROUP 005
+LABEL Application
+
+    BUTTON Sniptool
+    BUTTON Toleranceexe
+    BUTTON Calculatoropen
+    BUTTON Quickhole
+    BUTTON nx_screw_insert_ui
+
+END_GROUP
+
+
+BEGIN_GROUP 006
+LABEL Import&Export
+
+    BUTTON batch_export_step
+    BUTTON batch_import
+    BUTTON Openfilefolder
+
+END_GROUP
+

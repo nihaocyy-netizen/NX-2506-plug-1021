@@ -1,0 +1,225 @@
+VERSION 120
+EDIT UG_GATEWAY_MAIN_MENUBAR
+
+BEFORE UG_HELP
+
+CASCADE_BUTTON my_men1
+LABEL NX工具
+
+CASCADE_BUTTON my_men2
+LABEL NX工具箱
+
+END_OF_BEFORE
+
+
+MENU my_men1
+CASCADE_BUTTON Color
+LABEL 颜色工具
+
+CASCADE_BUTTON Display
+LABEL 显示工具
+
+CASCADE_BUTTON Layer
+LABEL 图层工具
+
+CASCADE_BUTTON AUTODWG
+LABEL 工程图
+
+CASCADE_BUTTON Application
+LABEL 应用程序
+
+CASCADE_BUTTON Import&export
+LABEL 导入导出
+	
+END_OF_MENU
+
+
+MENU Color
+
+	BUTTON Colorred186
+	LABEL 红色
+	BITMAP ..\bitmap\Colorred186.bmp
+	ACTIONS Colorred186.py
+
+	BUTTON  Colororange78
+	LABEL 橙色
+	BITMAP ..\bitmap\Colororange78.bmp
+	ACTIONS  Colororange78.py
+
+	BUTTON Coloryellow6
+	LABEL 黄色
+	BITMAP ..\bitmap\Coloryellow6.bmp
+	ACTIONS Coloryellow6.py
+
+	BUTTON Colorgreen36
+	LABEL 绿色
+	BITMAP ..\bitmap\Colorgreen36.bmp
+	ACTIONS Colorgreen36.py
+
+	BUTTON  Colorblue211
+	LABEL 蓝色
+	BITMAP ..\bitmap\Colorblue211.bmp
+	ACTIONS  Colorblue211.py
+
+	BUTTON Colorbrown125
+	LABEL 棕色
+	BITMAP ..\bitmap\Colorbrown125.bmp
+	ACTIONS Colorbrown125.py
+
+	BUTTON Colorgray44
+	LABEL 灰色
+	BITMAP ..\bitmap\Colorgray44.bmp
+	ACTIONS Colorgray44.py
+
+	BUTTON   Colorpurple164
+	LABEL 紫色
+	BITMAP ..\bitmap\Colorpurple164.bmp
+	ACTIONS   Colorpurple164.py
+
+	SEPARATOR
+
+	BUTTON Colorrandom
+	LABEL 随机颜色
+	BITMAP ..\bitmap\Colorrandom.bmp
+	ACTIONS Colorrandom.py
+
+END_OF_MENU
+
+MENU Display 
+	
+	BUTTON Transparent
+	LABEL 设为透明
+	BITMAP ..\bitmap\Transparent.bmp
+	ACTIONS Transparent.py
+
+	BUTTON Notransparent
+	LABEL 取消透明
+	BITMAP ..\bitmap\Notransparent.bmp
+	ACTIONS Notransparent.py
+
+
+	BUTTON Showonly
+	LABEL 仅显示
+	BITMAP ..\bitmap\Showonly.bmp
+	ACTIONS Showonly.py
+
+END_OF_MENU
+
+
+MENU Layer 
+
+	BUTTON Showalllayers
+	LABEL 显示全部图层
+	BITMAP ..\bitmap\Showalllayers.bmp
+	ACTIONS Showalllayers.py
+
+	BUTTON Hidealllayers
+	LABEL 隐藏全部图层
+	BITMAP ..\bitmap\Hidealllayers.bmp
+	ACTIONS Hidealllayers.py
+	
+	BUTTON Previouslayer
+	LABEL 上一个图层
+	BITMAP ..\bitmap\Previouslayer.bmp
+	ACTIONS Previouslayer.py
+
+	BUTTON Nextlayer
+	LABEL 下一个图层
+	BITMAP ..\bitmap\Nextlayer.bmp
+	ACTIONS Nextlayer.py
+
+	BUTTON Separatelayer
+	LABEL 图层分离
+	BITMAP ..\bitmap\Separatelayer.bmp
+	ACTIONS Separatelayer.py
+
+	BUTTON Switch10worklayer
+	LABEL 10为工作层
+	BITMAP ..\bitmap\Switch10worklayer.bmp
+	ACTIONS Switch10worklayer.py
+	
+	BUTTON Switch200worklayer
+	LABEL 200为工作层
+	BITMAP ..\bitmap\Switch200worklayer.bmp
+	ACTIONS Switch200worklayer.py
+
+	BUTTON Movetolayer255
+	LABEL 移动到255图层
+	BITMAP ..\bitmap\Movetolayer255.bmp
+	ACTIONS Movetolayer255.py
+
+
+END_OF_MENU
+
+
+MENU AUTODWG 
+
+	BUTTON Semiautodwg
+	LABEL 半自动出图
+	BITMAP ..\bitmap\Semiautodwg.bmp
+	ACTIONS Semiautodwg.py
+
+	BUTTON Autodwg
+	LABEL 自动出图
+	BITMAP ..\bitmap\Autodwg.bmp
+	ACTIONS Autodwg.py
+
+	BUTTON Reset_task
+	LABEL 重置出图
+	BITMAP ..\bitmap\Reset_task.bmp
+	ACTIONS Reset_task.py
+
+END_OF_MENU
+
+
+MENU Application 
+
+	BUTTON Sniptool
+	LABEL 截图工具
+	BITMAP ..\bitmap\Sniptool.bmp
+	ACTIONS Sniptool.vb
+
+	BUTTON  Toleranceexe
+	LABEL 公差查询
+	BITMAP ..\bitmap\Toleranceexe.bmp
+	ACTIONS  Toleranceexe.py
+
+	BUTTON   Calculatoropen
+	LABEL 计算器
+	BITMAP ..\bitmap\Calculatoropen.bmp
+	ACTIONS   Calculatoropen.py
+
+	BUTTON  Quickhole
+	LABEL 快捷腰孔
+	BITMAP ..\bitmap\Quickhole.bmp
+	ACTIONS  QuickholeParametricUI.py
+
+	BUTTON   nx_screw_insert_ui
+	LABEL 螺丝插入
+	BITMAP ..\bitmap\nx_screw_insert_ui.bmp
+	ACTIONS  nx_screw_insert_ui.py
+
+END_OF_MENU
+
+
+MENU Import&export
+
+	BUTTON batch_export_step
+	LABEL 文件批量导出
+	BITMAP ..\bitmap\batch_export_step.bmp
+	ACTIONS batch_export_step.py
+
+
+	BUTTON batch_import
+	LABEL 文件批量导入
+	BITMAP ..\bitmap\batch_import.bmp
+	ACTIONS batch_import.py
+
+	BUTTON Openfilefolder
+	LABEL 打开文件夹
+	BITMAP ..\bitmap\Openfilefolder.bmp
+	ACTIONS Openfilefolder.py
+
+END_OF_MENU
+
+
